@@ -1,0 +1,25 @@
+<script type="text/javascript">
+
+
+function sum() {
+   var result = 0;
+   for (var i = 0; i < arguments.length; i++) {
+      result += arguments[i];
+   }
+   return result;
+}
+
+
+
+
+var result = sum(2, 2);
+console.log('Result should be 4:', result);
+
+var result = sum(1, 2, 3, 4);
+console.log('Result should be 10:', result);
+
+var result = sum();
+console.log('Result should be 0:', result);
+</script>
+
+
